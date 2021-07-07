@@ -1,0 +1,54 @@
+/* rule */
+body /* selector */ {
+    /* declaration */
+    /* property: value*/
+    background-color: hsl(182, 56%, 79%);
+  }
+  
+  /* rule */
+  h1 {
+    color: rgb(15, 8, 53);
+    text-align: center;
+  }
+  
+  /* rule */
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  /* id selector */
+  #main-sub-title {
+    color: whitesmoke;
+    text-align: right;
+    font-size: 22px;
+  }
+  
+  /* class selector */
+  .basic-information {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  /* universal selector */
+  * {
+    color: rgb(9, 9, 15);
+  }
+  
+  /* css grouping selector */
+  h3,
+  h4 {
+    color: white;
+    text-align: justify;
+  }
+
+  .vvedenie {
+      background-image: url(../img/безымянный.png);
+      background-repeat::repeat-y;
+  }
